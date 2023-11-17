@@ -12,7 +12,9 @@ export default {
       colors:{
         'sim-blue':"#2C2D5B",
         'sim-orange':"#F67366",
-        'sim-grey':'#4F4F4F'
+        'sim-grey':'#4F4F4F',
+        'sim-black':'#141414',
+        'light-black':'#333'
       }
     },
   },

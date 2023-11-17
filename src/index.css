@@ -14,11 +14,11 @@
 
 @layer utilities {
   .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
+    @apply sm:px-16 lg:px-24 px-8 sm:py-24 py-12;
   }
 
   .padding-x {
-    @apply sm:px-16 px-8;
+    @apply sm:px-16 lg:px-24 px-8;
   }
 
   .padding-y {
@@ -44,4 +44,31 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+}
+
+@layer components{
+  .custom-btn{
+    @apply border border-sim-blue border-solid rounded-xl px-8 py-4 font-extrabold text-sm text-center capitalize cursor-pointer
+  }
+
+  .custom-btn.secondary{
+    @apply border-none bg-sim-blue text-white 
+  }
+}
+
+
+.custom-hover li:hover {
+  @apply transition duration-300 ease-in-out;
+}
+
+.custom-hover li:hover a {
+  @apply border-b-2 border-slate-100 pb-1; /* Change border color and size as needed */
+}
+
+.navlinks-hover li:hover{
+  @apply transition duration-300 ease-in-out;
+}
+
+.navlinks-hover li:hover a{
+  @apply border-b-2 border-sim-blue pb-1;
 }
