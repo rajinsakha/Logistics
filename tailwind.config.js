@@ -14,7 +14,8 @@ export default {
         'sim-orange':"#F67366",
         'sim-grey':'#4F4F4F',
         'sim-black':'#141414',
-        'light-black':'#333'
+        'light-black':'#333',
+        'icon-white':'#F8F8FA'
       }
     },
   },

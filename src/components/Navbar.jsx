@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="padding-x py-4 w-full">
+    <header className="padding-x py-4 w-full ">
       <nav className="flex justify-between items-center">
         <div>
           <p className="text-sim-blue font-lato text-2xl font-light">
