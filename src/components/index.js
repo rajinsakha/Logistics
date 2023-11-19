@@ -1,3 +1,4 @@
 import Navbar from "./Navbar";
+import InputField from "./inputField";
 
-export {Navbar}
+export {Navbar, InputField}

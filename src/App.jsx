@@ -1,5 +1,5 @@
 import { Navbar } from "./components"
-import { Hero } from "./containers"
+import { Hero, Services } from "./containers"
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
  
     <Navbar />
     <Hero />
+    <Services />
     
     </>
   )

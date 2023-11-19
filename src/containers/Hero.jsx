@@ -1,5 +1,8 @@
-import { FaVideo } from "react-icons/fa";
+import { FaVideo, FaShoppingBag } from "react-icons/fa";
 import { heroImg } from "../assets";
+import { FaLocationDot } from "react-icons/fa6";
+import { InputField } from "../components";
+import Button from "../components/Button";
 
 const Hero = () => {
   return (
@@ -12,7 +15,7 @@ const Hero = () => {
             </p>
 
             <div className="flex mt-7 gap-7 items-center">
-                <button className="custom-btn secondary">Join Now</button>
+                <Button text="Join Now" />
                 <div className="flex items-center justify-center w-14 h-14 rounded-[100px] bg-white box-shadow">
                     <FaVideo fontSize={28} className="text-sim-blue" />
                 </div>
@@ -25,8 +28,15 @@ const Hero = () => {
         </div>
     </div>
 
-    <div className="mx-24 my-8 p-9 flex bg-slate-50 rounded-[30px]">
-      Hello
+    <div className="mx-4 min-[500px]:mx-8 xl:mx-24 lg:mx-12 sm:mx-12 mt-8 mb-16 p-9 flex justify-between rounded-[30px] box-shadow flex-wrap gap-6 max-[850px]:justify-center max-[1420px]:justify-around">
+
+      <InputField placeholder="Enter Location" Icon={FaLocationDot} name="Origin" />
+
+      <InputField placeholder="Enter Location" Icon={FaLocationDot} name="Destination" />
+
+      <InputField placeholder="Enter Weight (KG)" Icon={FaShoppingBag} name="Weight " />
+
+      <Button className="px-16 max-[1420px]:px-28 max-[500px]:flex-1 max-[500px]:px-0" text="Check Price" />
 
 
       
