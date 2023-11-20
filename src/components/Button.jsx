@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Button = ({text, className}) => {
   return (
-    <button className={`custom-btn secondary ${className}`}>{text}</button>
+    <button className={`custom-btn ${className}`}>{text}</button>
   )
 }
 

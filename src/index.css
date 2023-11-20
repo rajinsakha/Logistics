@@ -16,6 +16,10 @@
   box-shadow: 0px 0px 25px 0px rgba(151, 151, 151, 0.25);
 }
 
+.service-box-shadow{
+  box-shadow: 1px 1px 8px 0px #F4F6F9, 4px 4px 10px 0px #D8D8D8 inset, -6px -5px 12px 0px #FAFBFC inset;
+}
+
 
 @layer utilities {
   .padding {
@@ -57,8 +61,17 @@
   }
 
   .custom-btn.secondary{
-    @apply border-none bg-sim-blue text-white 
+    @apply  bg-sim-blue text-white 
   }
+
+  .hover{
+    @apply hover:bg-sim-blue hover:text-white hover:transition-all
+  }
+
+  .secondary-hover{
+    @apply hover:bg-blue-900 hover:transition-all
+  }
+
 }
 
 

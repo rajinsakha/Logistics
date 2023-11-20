@@ -1,13 +1,15 @@
 import { Navbar } from "./components"
-import { Hero, Services } from "./containers"
+import { Hero, Services, Operations } from "./containers"
+
 
 function App() {
   return (
     <>
- 
+
     <Navbar />
     <Hero />
     <Services />
+    <Operations />
     
     </>
   )

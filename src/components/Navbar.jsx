@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
+import {Button} from './index';
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -17,7 +19,7 @@ const Navbar = () => {
           </p>
         </div>
 
-        <ul className="flex justify-center items-center gap-16 navlinks-hover max-lg:hidden">
+        <ul className="flex justify-center items-center gap-16 navlinks-hover max-xl:hidden">
           <li>
             <a href="http://">Company</a>
           </li>
@@ -39,15 +41,13 @@ const Navbar = () => {
         </ul>
 
         <div className="flex gap-3 max-lg:hidden">
-          <button className="custom-btn">
-            Request Quote
-          </button>
-          <button className="custom-btn secondary">
-            Join Now
-          </button>
+          <Button text="Request Quote" className="hover" />
+        
+          <Button text="Join Now" className="secondary secondary-hover" />
+         
         </div>
 
-        <div className="hidden max-lg:flex">
+        <div className="hidden max-xl:flex">
           <GiHamburgerMenu
             className="cursor-pointer"
             fontSize={24}
