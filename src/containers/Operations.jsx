@@ -13,9 +13,8 @@ const Operations = () => {
         />
         <h1 className="leading-normal text-black max-[500px]:text-2xl text-4xl font-normal">
           <span className="font-bold border-b-4 border-b-sim-orange pb-2">
-            Operation
-          </span>{" "}
-          Mode
+            Operation 
+          </span> Mode
         </h1>
       </div>
 
@@ -28,7 +27,7 @@ const Operations = () => {
               title={operation.title}
               description={operation.description}
               imgURL={operation.imgURL}
-              index={index+1}
+              index={index + 1}
             />
           );
         })}

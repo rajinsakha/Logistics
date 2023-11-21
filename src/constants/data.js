@@ -15,6 +15,4 @@ export const operations = [
     {number:"1", title:"Connect", description:"You're currently running your store on Shopify, WooCommerce, or any other platform. As a first step, you'll connect your store with our platform.", imgURL: operationImg1},
     {number:"2", title:"Store", description:"Then, you can send us your inventory and the fun begins. We'll choose a delivery day together so your fulfilment is not interrupted.", imgURL: operationImg2},
     {number:"3", title:"Ship", description:"We pick, pack and ship all incoming orders directly from our own warehouse until 12pm on the same day.", imgURL: operationImg3},
-    
-
 ]
