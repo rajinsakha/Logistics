@@ -21,8 +21,8 @@ const Services = () => {
       </div>
 
       <div className="flex md:justify-center  items-center gap-8 ">
-        <Button text="Request Quote" className="max-sm:flex-1 px-12 hover" />
-        <Button text="Join Now" className="secondary max-sm:flex-1 px-12 secondary-hover" />
+        <Button text="Request Quote" className="max-sm:flex-1 px-10 hover max-[500px]:px-2 max-[500px]:text-sm" />
+        <Button text="Join Now" className="secondary max-sm:flex-1 px-10 secondary-hover max-[500px]:px-2 max-[500px]:text-sm" />
       </div>
 
     </section>

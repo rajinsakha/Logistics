@@ -1,4 +1,4 @@
-import { Navbar } from "./components"
+import { Navbar, Footer } from "./components"
 import { Hero, Services, Operations, Warehouse } from "./containers"
 
 
@@ -11,7 +11,7 @@ function App() {
     <Services />
     <Operations />
     <Warehouse />
-    
+    <Footer />
     </>
   )
 }

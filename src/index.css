@@ -20,6 +20,10 @@
   box-shadow: 1px 1px 8px 0px #F4F6F9, 4px 4px 10px 0px #D8D8D8 inset, -6px -5px 12px 0px #FAFBFC inset;
 }
 
+.line{
+  background: rgba(229, 229, 229, 0.40);
+}
+
 
 @layer utilities {
   .padding {
@@ -72,21 +76,29 @@
     @apply hover:bg-blue-900 hover:transition-all
   }
 
+  .custom-hover li:hover {
+    @apply transition duration-300 ease-in-out;
+  }
+  
+  .custom-hover li:hover a {
+    @apply border-b-2 border-slate-100 pb-1; /* Change border color and size as needed */
+  }
+  
+  .navlinks-hover li:hover{
+    @apply transition duration-300 ease-in-out;
+  }
+  
+  .navlinks-hover li:hover a{
+    @apply border-b-2 border-sim-blue pb-1;
+  }
+
+  .footerLinks-title{
+    @apply text-base sm:text-lg font-bold text-white leading-normal
+  }
+
+  .footerLinks{
+    @apply text-xs sm:text-sm font-medium leading-normal text-white cursor-pointer
+  }
 }
 
 
-.custom-hover li:hover {
-  @apply transition duration-300 ease-in-out;
-}
-
-.custom-hover li:hover a {
-  @apply border-b-2 border-slate-100 pb-1; /* Change border color and size as needed */
-}
-
-.navlinks-hover li:hover{
-  @apply transition duration-300 ease-in-out;
-}
-
-.navlinks-hover li:hover a{
-  @apply border-b-2 border-sim-blue pb-1;
-}

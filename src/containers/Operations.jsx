@@ -5,20 +5,20 @@ import { operations } from "../constants/data";
 const Operations = () => {
   return (
     <section className="padding">
-      <div className="flex padding-b gap-x-96 items-end">
+      <div className="flex padding-b max-lg:flex-col lg:gap-x-48 xl:gap-x-96 lg:items-end">
         <CircularIcon
           Icon={FaTruckFast}
           iconStyle="text-sim-orange sm:h-[60px] sm:w-[60px] h-[30px] w-[30px]"
           className="sm:h-[150px] sm:w-[150px] h-20 w-20 "
         />
-        <h1 className="leading-normal text-black max-[500px]:text-2xl text-4xl font-normal">
+        <h1 className="leading-normal text-black max-[500px]:text-2xl text-4xl font-normal text-center">
           <span className="font-bold border-b-4 border-b-sim-orange pb-2">
             Operation 
           </span> Mode
         </h1>
       </div>
 
-      <div className="sm:padding-x flex flex-col gap-12 justify-between">
+      <div className="sm:px-8 lg:px-16 px-4 flex flex-col gap-12 justify-between">
         {operations.map((operation, index) => {
           return (
             <OperationItem

@@ -57,7 +57,7 @@ const Navbar = () => {
           />
 
           {toggleMenu && (
-            <div className="w-[300px] h-screen flex justify-between items-start px-6 py-6 fixed top-0 right-0 z-10 bg-sim-blue text-white overflow-x-hidden">
+            <div className=" w-[300px] h-screen flex justify-between items-start px-6 py-6 fixed top-0 right-0 z-10 bg-sim-blue text-white overflow-x-hidden">
               <ul className="custom-hover flex-1 flex flex-col gap-12 px-8 py-4 font-semibold text-2xl cursor-pointer mt-16">
                 <li>
                   <a href="http://">Company</a>
